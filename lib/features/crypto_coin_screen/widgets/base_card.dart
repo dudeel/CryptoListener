@@ -9,13 +9,13 @@ class BaseCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.symmetric(
-        horizontal: 16,
+        horizontal: 24,
         vertical: 8,
       ),
       width: double.infinity,
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.all(18),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(16),
+        borderRadius: BorderRadius.circular(6),
         color: const Color.fromARGB(255, 21, 21, 21),
       ),
       child: child,

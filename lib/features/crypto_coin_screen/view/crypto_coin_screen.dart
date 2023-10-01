@@ -41,6 +41,7 @@ class _CryptoCoinScreenState extends State<CryptoCoinScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
+                  const SizedBox(height: 24),
                   SizedBox(
                     height: 160,
                     width: 160,
