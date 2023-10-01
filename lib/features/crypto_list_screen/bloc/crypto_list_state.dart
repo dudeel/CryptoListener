@@ -25,10 +25,11 @@ class CryptoListLoaded extends CryptoListState {
 
 class CryptoListLoadingFailure extends CryptoListState {
   CryptoListLoadingFailure({
-    this.exeption,
+    this.exception,
   });
-  final Object? exeption;
+
+  final Object? exception;
 
   @override
-  List<Object?> get props => [exeption];
+  List<Object?> get props => [exception];
 }

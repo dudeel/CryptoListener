@@ -1,1 +1,1 @@
-export 'crypto_coin_title.dart';
+export 'crypto_coin_tile.dart';
